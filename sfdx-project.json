@@ -1,11 +1,18 @@
 {
-	"packageDirectories": [
-		{
-			"path": "force-app",
-			"default": true
-		}
-	],
-	"namespace": "",
-	"sfdcLoginUrl": "https://login.salesforce.com",
-	"sourceApiVersion": "48.0"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "LoggingDX",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "LoggingDX": "0Ho6g000000KzOXCA0",
+        "LoggingDX@0.1.0-1": "04t6g000008WlS8AAK"
+    }
 }
